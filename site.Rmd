@@ -12,7 +12,7 @@ linkedin: benjaques
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 220142
 docname: "Résumé"
-output: vitae::markdowncv #for html markdowncv
+output: vitae::markdowncv #  vitae::markdowncv for html markdowncv
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
